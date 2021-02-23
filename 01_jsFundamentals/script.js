@@ -92,15 +92,32 @@
 
 
 
-//////////////////////
-// Coding Challenge #1
-const markHeight = 1.69
-const markMass = 78
-const johnHeight = 1.95
-const johnMass = 92
+// //////////////////////
+// // Coding Challenge #1
+// const markHeight = 1.69
+// const markMass = 78
+// const johnHeight = 1.95
+// const johnMass = 92
 
-const markBMI = markMass / markHeight ** 2
-const johnBMI = johnMass / johnHeight ** 2
+// const markBMI = markMass / markHeight ** 2
+// const johnBMI = johnMass / johnHeight ** 2
 
-let markHigherBMI = markBMI > johnBMI
-console.log(markHigherBMI)
+// let markHigherBMI = markBMI > johnBMI
+// console.log(markHigherBMI)
+
+const firstName = 'Henrique'
+const job = 'programmer'
+const birthYear = 2002
+const year = 2037
+
+const henrique = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!'
+console.log(henrique)
+
+const henriqueNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`
+console.log(henriqueNew)
+
+console.log(`Just a regular string...`)
+
+console.log(`String with
+multiple
+lines`)
