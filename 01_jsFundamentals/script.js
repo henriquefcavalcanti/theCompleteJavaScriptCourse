@@ -105,19 +105,38 @@
 // let markHigherBMI = markBMI > johnBMI
 // console.log(markHigherBMI)
 
-const firstName = 'Henrique'
-const job = 'programmer'
-const birthYear = 2002
-const year = 2037
+// const firstName = 'Henrique'
+// const job = 'programmer'
+// const birthYear = 2002
+// const year = 2037
 
-const henrique = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!'
-console.log(henrique)
+// const henrique = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!'
+// console.log(henrique)
 
-const henriqueNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`
-console.log(henriqueNew)
+// const henriqueNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`
+// console.log(henriqueNew)
 
-console.log(`Just a regular string...`)
+// console.log(`Just a regular string...`)
 
-console.log(`String with
-multiple
-lines`)
+// console.log(`String with
+// multiple
+// lines`)
+
+
+const age = 15
+
+if (age >= 18) {
+    console.log('Sarah can start diving license!!')
+} else {
+    const yearsLeft = 18 - age
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years!!`)
+}
+
+const birthYear = 1991
+let century
+if (birthYear <= 2000) {
+    century = 20
+} else {
+    century = 21
+}
+console.log(century)
