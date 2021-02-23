@@ -105,6 +105,9 @@
 // let markHigherBMI = markBMI > johnBMI
 // console.log(markHigherBMI)
 
+
+/////////////////////////////////////
+
 // const firstName = 'Henrique'
 // const job = 'programmer'
 // const birthYear = 2002
@@ -123,20 +126,38 @@
 // lines`)
 
 
-const age = 15
+// const age = 15
 
-if (age >= 18) {
-    console.log('Sarah can start diving license!!')
-} else {
-    const yearsLeft = 18 - age
-    console.log(`Sarah is too young. Wait another ${yearsLeft} years!!`)
-}
+// if (age >= 18) {
+//     console.log('Sarah can start diving license!!')
+// } else {
+//     const yearsLeft = 18 - age
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years!!`)
+// }
 
-const birthYear = 1991
-let century
-if (birthYear <= 2000) {
-    century = 20
+// const birthYear = 1991
+// let century
+// if (birthYear <= 2000) {
+//     century = 20
+// } else {
+//     century = 21
+// }
+// console.log(century)
+
+
+
+////////////////
+// Coding Challenge #2
+const markHeight = 1.69
+const markMass = 78
+const johnHeight = 1.95
+const johnMass = 92
+
+const markBMI = markMass / markHeight ** 2
+const johnBMI = johnMass / johnHeight ** 2
+
+if(markBMI > johnBMI) {
+    console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`)
 } else {
-    century = 21
+    console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})!`)
 }
-console.log(century)
