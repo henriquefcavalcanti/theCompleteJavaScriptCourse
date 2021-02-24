@@ -1,7 +1,7 @@
 let country = 'Brazil'
 let continent = 'South America'
 let population = 213.4
-let description = 'Brazil is in South America, and its 213.4 million people speak portuguese'
+let description = `Brazil is in South America, and its ${population} million people speak portuguese`
 
 console.log(population / 2)
 population++
