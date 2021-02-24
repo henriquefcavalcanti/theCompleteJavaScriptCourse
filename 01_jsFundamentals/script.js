@@ -146,18 +146,38 @@
 
 
 
-////////////////
-// Coding Challenge #2
-const markHeight = 1.69
-const markMass = 78
-const johnHeight = 1.95
-const johnMass = 92
+// ////////////////
+// // Coding Challenge #2
+// const markHeight = 1.69
+// const markMass = 78
+// const johnHeight = 1.95
+// const johnMass = 92
 
-const markBMI = markMass / markHeight ** 2
-const johnBMI = johnMass / johnHeight ** 2
+// const markBMI = markMass / markHeight ** 2
+// const johnBMI = johnMass / johnHeight ** 2
 
-if(markBMI > johnBMI) {
-    console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`)
-} else {
-    console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})!`)
-}
+// if(markBMI > johnBMI) {
+//     console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`)
+// } else {
+//     console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})!`)
+// }
+
+// type conversion
+const inputYear = '1991'
+console.log(Number(inputYear), inputYear)
+console.log(Number(inputYear) + 18)
+
+console.log(Number('Jonas'))
+console.log(typeof NaN)
+
+console.log(String(23), 23)
+
+// type coercion
+console.log('I am ' + 23 + ' years old')
+console.log('23' - '10' - 3)
+console.log('23' / '2')
+console.log('23' > '18')
+
+let n = '1' + 1
+n = n - 1
+console.log(n)
