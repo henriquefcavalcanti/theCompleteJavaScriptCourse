@@ -8,12 +8,34 @@
 //     console.log('No borders!')
 // }
 
-const speakEnglish = false
-const lessThan50 = false
-const isIsland = false
+// const speakEnglish = false
+// const lessThan50 = false
+// const isIsland = false
 
-if (speakEnglish && lessThan50 && !isIsland) {
-    console.log('You should live in this country')
-} else {
-    console.log('This country does not meet your criteria')
+// if (speakEnglish && lessThan50 && !isIsland) {
+//     console.log('You should live in this country')
+// } else {
+//     console.log('This country does not meet your criteria')
+// }
+
+const language = 'spanish'
+
+switch (language) {
+    case 'chinese':
+        console.log('MOST number of native speakers!')
+        break
+    case 'spanish':
+        console.log('2nd place in number of native speakers')
+        break
+    case 'english':
+        console.log('3rd place')
+        break
+    case 'hindi':
+        console.log('Number 4')
+        break
+    case 'arabic':
+        console.log('5th most spoken language')
+        break
+    default:
+        console.log('Great language too')
 }
