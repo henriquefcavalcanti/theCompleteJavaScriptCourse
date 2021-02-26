@@ -223,24 +223,40 @@
 
 // if (favorite !== 23) console.log('why not 23')
 
-const hasDriversLicense = true
-const hasGoodVision = true
+// const hasDriversLicense = true
+// const hasGoodVision = true
 
-console.log(hasDriversLicense && hasGoodVision)
-console.log(hasDriversLicense || hasGoodVision)
-console.log(!hasDriversLicense)
+// console.log(hasDriversLicense && hasGoodVision)
+// console.log(hasDriversLicense || hasGoodVision)
+// console.log(!hasDriversLicense)
 
-// if (hasDriversLicense && hasGoodVision) {
+// // if (hasDriversLicense && hasGoodVision) {
+// //     console.log('Sarah is able to drive!')
+// // } else {
+// //     console.log('Someone else should drive...')
+// // }
+
+// const isTired = false
+// console.log(hasDriversLicense && hasGoodVision && isTired)
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
 //     console.log('Sarah is able to drive!')
 // } else {
 //     console.log('Someone else should drive...')
 // }
 
-const isTired = false
-console.log(hasDriversLicense && hasGoodVision && isTired)
 
-if (hasDriversLicense && hasGoodVision && !isTired) {
-    console.log('Sarah is able to drive!')
+
+
+///////////////////////////////
+// Coding Challenge #3
+const DolphinsScore = (96 + 108 + 89) / 3
+const KoalasScore = (88 + 91 + 110) / 3
+
+if (DolphinsScore > KoalasScore) {
+    console.log('Dolphins wins the trophy!')
+} else if (DolphinsScore < KoalasScore) {
+    console.log('Koalas wins the trophy!')
 } else {
-    console.log('Someone else should drive...')
+    console.log('DRAW!')
 }
