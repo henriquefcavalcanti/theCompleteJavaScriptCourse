@@ -312,18 +312,28 @@
 // const me = 'Henrique'
 // console.log(`I'm ${2037 - 2002} years old ${me}`)
 
-const age = 23
-age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water')
+// const age = 23
+// age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water')
 
-const drink = age >= 18 ? 'wine' : 'water'
-console.log(drink)
+// const drink = age >= 18 ? 'wine' : 'water'
+// console.log(drink)
 
-let drink2
-if (age >= 18) {
-    drink2 = 'wine'
-} else {
-    drink2 = 'water'
-}
-console.log(drink2)
+// let drink2
+// if (age >= 18) {
+//     drink2 = 'wine'
+// } else {
+//     drink2 = 'water'
+// }
+// console.log(drink2)
 
-console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`)
+// console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`)
+
+
+
+
+////////////////////////////
+// Coding Challenge #4
+let bill = 275
+let tip = bill >= 50 && bill <= 200 ? bill * 0.15 : bill * 0.20
+let billWithTip = bill + tip
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${billWithTip}`)
